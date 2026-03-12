@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>SmartMart Online Store</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🛒 SmartMart</h1>
+
+<input type="text" id="search" placeholder="Search products...">
+
+<nav>
+<a href="index.html">Home</a>
+<a href="cart.html">Cart</a>
+<a href="orders.html">Orders</a>
+<a href="login.html">Login</a>
+</nav>
+
+</header>
+
+<!-- Banner Slider -->
+
+<div class="slider">
+
+<img src="images/banner1.jpg">
+<img src="images/banner2.jpg">
+<img src="images/banner3.jpg">
+
+</div>
+
+<h2 class="title">Featured Products</h2>
+
+<div class="products" id="productList">
+
+<div class="card">
+
+<span class="wishlist">❤️</span>
+
+<img src="images/phone.jpg">
+
+<h3>Smartphone</h3>
+
+<p class="price">₹15000</p>
+
+<p>⭐⭐⭐⭐☆</p>
+
+<button onclick="addToCart('Smartphone',15000)">Add to Cart</button>
+
+</div>
+
+<div class="card">
+
+<span class="wishlist">❤️</span>
+
+<img src="images/laptop.jpg">
+
+<h3>Laptop</h3>
+
+<p class="price">₹55000</p>
+
+<p>⭐⭐⭐⭐⭐</p>
+
+<button onclick="addToCart('Laptop',55000)">Add to Cart</button>
+
+</div>
+
+<div class="card">
+
+<span class="wishlist">❤️</span>
+
+<img src="images/headphone.jpg">
+
+<h3>Headphones</h3>
+
+<p class="price">₹2000</p>
+
+<p>⭐⭐⭐⭐☆</p>
+
+<button onclick="addToCart('Headphones',2000)">Add to Cart</button>
+
+</div>
+
+<div class="card">
+
+<span class="wishlist">❤️</span>
+
+<img src="images/watch.jpg">
+
+<h3>Smart Watch</h3>
+
+<p class="price">₹3500</p>
+
+<p>⭐⭐⭐⭐☆</p>
+
+<button onclick="addToCart('Smart Watch',3500)">Add to Cart</button>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
